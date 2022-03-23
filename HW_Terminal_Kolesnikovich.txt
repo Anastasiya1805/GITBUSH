@@ -1,26 +1,35 @@
-1. Посмотреть где я: pwd
-2. Создать папку: mkdir document_case
-3. Зайти в папку: cd document_case
-4. Создать 3 папки: mkdir Mir_1 Mir_2 Mir_3 
-5. Зайти в любоую папку: cd Mir_1
-6. Создать 5 файлов (3 txt, 2 json): touch crem_1.txt crem_2.txt crem_3.txt pirog_1.json pirog_2.json
-7. Создать 3 папки: mkdir sok_1 sok_2 sok_3
-8. Вывести список содержимого папки: ls -la
-9. + Открыть любой txt файл:  vim crem_1.txt
-10. + написать туда что-нибудь, любой текст: Для Windows нажать i, напишем: 
-The History of the English Language.
+<div align="center">
+
+### ***"Команды TERMINAL LINUX"*** 
+</div>
+
++ Посмотреть где я: `pwd`
++ Создать папку: `mkdir document_case`
++ Зайти в папку: `cd document_case`
++ Создать 3 папки: `mkdir Mir_1 Mir_2 Mir_3` 
++ Зайти в любоую папку: `cd Mir_1`
++ Создать 5 файлов (3 txt, 2 json): `touch crem_1.txt crem_2.txt crem_3.txt pirog_1.json pirog_2.json`
++ Создать 3 папки: `mkdir sok_1 sok_2 sok_3`
++ Вывести список содержимого папки: `ls -la`
++ Открыть любой txt файл:  `vim crem_1.txt`
++ Hаписать туда что-нибудь, любой текст: Для Windows нажать `i`, напишем: 
+  
+```The History of the English Language.
 The Scariest Day of the Year
 The Vikings were the people of the northern part of Europe
 The Vikings made their attacks very quickly and without any warning
-The Vikings travelled across a large area.
-11. + сохранить и выйти: выйти из режима редактирования клавишей esc, далее снизу слева ввести : wq(сохранить и выйти). Нажать enter
-12. Выйти из папки на уровень выше: cd ..
-13. переместить любые 2 файла, которые вы создали, в любую другую папку:   mv Mir_1/crem_2.txt Mir_1/crem_3.txt Mir_2
-14. скопировать любые 2 файла, которые вы создали, в любую другую папку: cp Mir_1/crem_1.txt Mir_3/crem_1.txt
-cp Mir_1/pirog_1.json Mir_3/pirog_1.json
-15. Найти файл по имени:  find -name crem_1.txt
-16. просмотреть содержимое в реальном времени (команда grep) изучите как она работает: tail -f crem_1.txt | grep '.*'
-17. вывести несколько первых строк из текстового файла:  head -n crem_1.txt
-18. вывести несколько последних строк из текстового файла:  tail -n 3 crem_1.txt
-19. просмотреть содержимое длинного файла (команда less) изучите как она работает: less Mir_1/crem_1.txt
-20. вывести дату и время: date
+The Vikings travelled across a large area
+```
+
+
++ Сохранить и выйти: выйти из режима редактирования клавишей esc, далее снизу слева ввести: `:wq` (сохранить и выйти). Нажать `enter`.
++  Выйти из папки на уровень выше: `cd ..`
++  Переместить любые 2 файла, которые вы создали, в любую другую папку:   `mv Mir_1/crem_2.txt Mir_1/crem_3.txt Mir_2`.
++  Cкопировать любые 2 файла, которые вы создали, в любую другую папку: `cp Mir_1/crem_1.txt Mir_3/crem_1.txt
+cp Mir_1/pirog_1.json Mir_3/pirog_1.json`.
++ Найти файл по имени:  find -name crem_1.txt
++ просмотреть содержимое в реальном времени (команда grep) изучите как она работает: `tail -f crem_1.txt | grep '.*'`
++ Вывести несколько первых строк из текстового файла:  `head -n crem_1.txt`.
++ Вывести несколько последних строк из текстового файла:  `tail -n 3 crem_1.txt`.
++ Просмотреть содержимое длинного файла (команда less) изучите как она работает: `less Mir_1/crem_1.txt`.
++ Вывести дату и время: `date`.
